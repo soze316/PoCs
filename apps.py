@@ -56,7 +56,7 @@ def main():
         st.subheader("Illuminate")
         st.image("illuminate.png", width=150)
         st.write("Generate short podcasts with your published content.")
-        st.markdown("[Listen to summary AI podcasts](https://illuminate.google.com/home?pli=1)", unsafe_allow_html=True)
+        st.markdown("[Listen to summary  AI podcasts](https://illuminate.google.com/home?pli=1)", unsafe_allow_html=True)
 
     with col8:
         st.subheader("Build your own app")
@@ -73,8 +73,8 @@ def main():
     with col10:
         st.subheader("Oxford English Dictionary")
         st.image("https://via.placeholder.com/150", width=150)
-        st.write("Automate the process of using the correct words for your region in your manuscripts.")
-        st.markdown("[Explore Project](https://external-url-for-project10.com)", unsafe_allow_html=True)
+        st.write("Automate the process of using the correct words for your region in your manuscripts. Built using artefacts.")
+        st.markdown("[Explore Project](https://oed-basic.streamlit.app/)", unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
