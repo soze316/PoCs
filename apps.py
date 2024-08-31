@@ -61,8 +61,8 @@ def main():
     with col8:
         st.subheader("Build your own app")
         st.image("https://via.placeholder.com/150", width=150)
-        st.write("Use AI to quickly build small custom applications for your teams to solve very specific problems.")
-        st.markdown("[Explore Project](https://external-url-for-project8.com)", unsafe_allow_html=True)
+        st.write("Use AI to quickly build small custom applications for your teams to solve small, very specific problems.")
+        st.markdown("[Explore Project](https://claude.ai/)", unsafe_allow_html=True)
 
     with col9:
         st.subheader("Novel Science Ideas")
