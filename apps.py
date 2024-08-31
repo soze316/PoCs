@@ -28,7 +28,7 @@ def main():
 
     with col4:
         st.subheader("Notebook LM")
-        st.image("poc_1.png", width=150)
+        st.image("notebook.png", width=150)
         st.write("Interact with any of your internal documents. Internal HR documents, travel policies, legal contracts, etc.")
         st.markdown("[Private](https://notebooklm.google.com/notebook/7befb094-a5a2-43f7-87cf-8d22b4ea1c99)", unsafe_allow_html=True)
         st.markdown("[Corporate](https://notebooklm.google.com/notebook/b5427c43-cdc8-4703-85f9-b0a4e6f20e78)", unsafe_allow_html=True)
@@ -60,7 +60,7 @@ def main():
 
     with col8:
         st.subheader("Build your own app")
-        st.image("custom_apps.png", width=150)
+        st.image("https://via.placeholder.com/150", width=150)
         st.write("Use AI to quickly build small custom applications for your teams to solve very specific problems.")
         st.markdown("[Explore Project](https://external-url-for-project8.com)", unsafe_allow_html=True)
 
@@ -72,7 +72,7 @@ def main():
 
     with col10:
         st.subheader("Oxford English Dictionary")
-        st.image("https://via.placeholder.com/150", width=150)
+        st.image("oxford.png", width=150)
         st.write("Automate the process of using the correct words for your region in your manuscripts. Built using artefacts.")
         st.markdown("[Explore Project](https://oed-basic.streamlit.app/)", unsafe_allow_html=True)
 
