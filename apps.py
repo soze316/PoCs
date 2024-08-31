@@ -30,7 +30,8 @@ def main():
         st.subheader("Notebook LM")
         st.image("poc_1.png", width=150)
         st.write("Interact with any of your internal documents. Internal HR documents, travel policies, legal contracts, etc.")
-        st.markdown("[Explore Project](https://external-url-for-project1.com)", unsafe_allow_html=True)
+        st.markdown("[Private](https://notebooklm.google.com/notebook/7befb094-a5a2-43f7-87cf-8d22b4ea1c99)", unsafe_allow_html=True)
+        st.markdown("[Corporate](https://notebooklm.google.com/notebook/b5427c43-cdc8-4703-85f9-b0a4e6f20e78)", unsafe_allow_html=True)
 
     with col5:
         st.subheader("Hey Gen")
