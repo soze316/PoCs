@@ -37,7 +37,7 @@ def main():
         st.subheader("Hey Gen")
         st.image("hey_gen.png", width=150)
         st.write("Create a custom avatar of yourself train your voice to generate custom content. (Hardware provided)")
-        st.markdown("[Explore Project](https://www.heygen.com/)", unsafe_allow_html=True)
+        st.markdown("[Let's create your avatar!](https://www.heygen.com/)", unsafe_allow_html=True)
 
     # Add some space between rows
     st.write("")
