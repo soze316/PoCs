@@ -12,7 +12,7 @@ def main():
         st.subheader("Say What You Can See")
         st.image("poc_0.png", width=150)
         st.write("Learn the art of image prompting with the help of Google AI. Try to generate matching images with your own prompts.")
-        st.markdown("[Explore Project](https://artsandculture.google.com/experiment/say-what-you-see/jwG3m7wQShZngw?hl=en)", unsafe_allow_html=True)
+        st.markdown("[Play a simple game!](https://artsandculture.google.com/experiment/say-what-you-see/jwG3m7wQShZngw?hl=en)", unsafe_allow_html=True)
 
     with col2:
         st.subheader("Ghostwriter Basic")
@@ -37,7 +37,7 @@ def main():
         st.subheader("Hey Gen")
         st.image("hey_gen.png", width=150)
         st.write("Create a custom avatar of yourself train your voice to generate custom content. (Hardware provided)")
-        st.markdown("[Let's create your avatar!](https://www.heygen.com/)", unsafe_allow_html=True)
+        st.markdown("[Create your own custom avatar!](https://www.heygen.com/)", unsafe_allow_html=True)
 
     # Add some space between rows
     st.write("")
@@ -56,7 +56,7 @@ def main():
         st.subheader("Illuminate")
         st.image("illuminate.png", width=150)
         st.write("Generate short podcasts with your published content.")
-        st.markdown("[Explore Project](project7.py)", unsafe_allow_html=True)
+        st.markdown("[Listen to summary AI podcasts](https://illuminate.google.com/home?pli=1)", unsafe_allow_html=True)
 
     with col8:
         st.subheader("Build your own app")
