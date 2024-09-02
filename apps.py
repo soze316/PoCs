@@ -6,7 +6,7 @@ def main():
     st.title("Welcome to Our POC Projects")
     st.write("Explore our innovative proof of concept projects selected for this AI workshop.:")
 
-    col1, col2, col3, col4, col5 = st.columns(5)
+    col1, col2, col3 = st.columns(3)
 
     with col1:
         st.subheader("Say What You Can See")
@@ -26,6 +26,12 @@ def main():
         st.write("AI-powered author services with more options to steer the book generation for various content types to help initiate ideas.")
         st.markdown("[Explore Project](https://hpg-ghostwriter-basic.streamlit.app/advanced)", unsafe_allow_html=True)
 
+    # Add some space between rows
+    st.write("")
+    st.write("")
+
+    col4, col5, col6 = st.columns(3)
+    
     with col4:
         st.subheader("Notebook LM")
         st.image("notebook.png", width=150)
@@ -39,18 +45,19 @@ def main():
         st.write("Create a custom avatar of yourself train your voice to generate custom content. (Hardware provided)")
         st.markdown("[Create your own custom avatar!](https://www.heygen.com/)", unsafe_allow_html=True)
 
-    # Add some space between rows
-    st.write("")
-    st.write("")
-
-    # Second row
-    col6, col7, col8, col9, col10 = st.columns(5)
-
     with col6:
         st.subheader("Talk with Data")
         st.image("https://via.placeholder.com/150", width=150)
         st.write("Interact with your data through natural language queries.")
         st.markdown("[Explore Project](https://external-url-for-project1.com)", unsafe_allow_html=True)
+
+    # Add some space between rows
+    st.write("")
+    st.write("")
+
+    # Second row
+    col7, col8, col9 = st.columns(3)
+
 
     with col7:
         st.subheader("Illuminate")
@@ -69,6 +76,13 @@ def main():
         st.image("https://via.placeholder.com/150", width=150)
         st.write("Test the novelty of your scientific ideas and generate new ones.")
         st.markdown("[Explore Project](project9.py)", unsafe_allow_html=True)
+
+    # Add some space between rows
+    st.write("")
+    st.write("")
+
+    # Second row
+    col10 = st.columns(3)
 
     with col10:
         st.subheader("Oxford English Dictionary")
