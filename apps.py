@@ -6,7 +6,7 @@ def main():
     st.title("Welcome to Our POC Projects")
     st.write("Explore our innovative proof of concept projects selected for this AI workshop.:")
 
-    col1, col2, col3 = st.columns(2)
+    col1, col2 = st.columns(2)
 
     with col1:
         st.subheader("Say What You Can See")
