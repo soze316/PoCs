@@ -3,7 +3,7 @@ import streamlit as st
 def main():
     
     st.set_page_config(page_title="POC Projects Landing Page", layout="wide")
-
+    st.sidebar.image("logo.png", use_column_width=True)
     st.sidebar.title("CEO Retreat")
     st.sidebar.write("""Welcome! This part of the retreat is dedicated to exploring some of the existing 
                      technologies you can use right now and touching on some of the new innovations 
