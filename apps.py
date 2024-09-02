@@ -1,6 +1,9 @@
 import streamlit as st
 
 def main():
+    
+    st.sidebar.title("POC Projects")
+    
     st.set_page_config(page_title="POC Projects Landing Page", layout="wide")
 
     st.title("Welcome to Our POC Projects")
