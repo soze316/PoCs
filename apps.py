@@ -2,11 +2,13 @@ import streamlit as st
 
 def main():
     
-    st.sidebar.title("POC Projects")
-    
     st.set_page_config(page_title="POC Projects Landing Page", layout="wide")
 
-    st.title("Welcome to Our POC Projects")
+    st.sidebar.title("POC Projects")
+    st.sidebar.write("Navigate through the projects:")
+
+
+    st.title("Welcome to Our PoC Projects")
     st.write("Explore our innovative proof of concept projects selected for this AI workshop.:")
 
     col1, col2 = st.columns(2)
@@ -46,7 +48,7 @@ def main():
         st.subheader("Podcasts")
         st.image("illuminate.png", width=150)
         st.write("Generate short podcasts with your published content.")
-        st.markdown("[Listen to summary  AI podcasts](https://illuminate.google.com/home?pli=1)", unsafe_allow_html=True)
+        st.markdown("[Listen to summary AI podcasts](https://illuminate.google.com/home?pli=1)", unsafe_allow_html=True)
 
     # Add some space between rows
     st.write("")
