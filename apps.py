@@ -76,5 +76,8 @@ def main():
         st.write("Automate the process of using the correct words for your region in your manuscripts. Built using artefacts.")
         st.markdown("[Explore Project](https://oed-basic.streamlit.app/)", unsafe_allow_html=True)
 
+st.subheader("Additional Tools", divider=True)
+
+
 if __name__ == "__main__":
     main()
