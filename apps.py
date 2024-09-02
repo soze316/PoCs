@@ -4,12 +4,11 @@ def main():
     
     st.set_page_config(page_title="POC Projects Landing Page", layout="wide")
 
-    st.sidebar.title("POC Projects")
-    st.sidebar.write("Navigate through the projects:")
+    st.sidebar.title("CEO Retreat")
+    st.sidebar.write("""Welcome! This part of the retreat is dedicated to exploring some of the existing 
+                     technologies you can use right now and touching on some of the new innovations 
+                     we will explore in the future.""")
 
-
-    st.title("Welcome to Our PoC Projects")
-    st.write("Explore our innovative proof of concept projects selected for this AI workshop.:")
 
     col1, col2 = st.columns(2)
 
