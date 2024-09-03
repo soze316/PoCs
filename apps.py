@@ -13,16 +13,18 @@ def main():
     col1, col2 = st.columns(2)
 
     with col1:
-        st.subheader("Say What You Can See")
-        st.image("poc_0.png", width=150)
-        st.write("Learn the art of image prompting with the help of Google AI. Try to generate matching images with your own prompts.")
+        with st.container():
+            st.subheader("Say What You Can See")
+            st.image("poc_0.png", width=150)
+            st.write("Learn the art of image prompting with the help of Google AI. Try to generate matching images with your own prompts.")
         st.markdown("[Play a simple game!](https://artsandculture.google.com/experiment/say-what-you-see/jwG3m7wQShZngw?hl=en)", unsafe_allow_html=True)
 
     with col2:
-        st.subheader("Ghostwriter")
-        st.image("poc_2.png", width=150)
-        st.write("AI-powered author services with more options to steer the book generation for various content types to help initiate ideas")
-        st.markdown("[Explore Project](https://hpg-ghostwriter-basic.streamlit.app/advanced)", unsafe_allow_html=True)
+        with st.container():
+            st.subheader("Ghostwriter")
+            st.image("poc_2.png", width=150)
+            st.write("AI-powered author services with more options to steer the book generation for various content types to help initiate ideas")
+            st.markdown("[Explore Project](https://hpg-ghostwriter-basic.streamlit.app/advanced)", unsafe_allow_html=True)
 
     #with col3:
         #st.subheader("Ghostwriter Advanced")
