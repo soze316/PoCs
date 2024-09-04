@@ -59,7 +59,7 @@ def main():
         st.subheader("Build your own app")
         st.image("https://via.placeholder.com/150", width=150)
         st.write("Use AI to quickly build small custom applications for your teams to solve small, very specific problems.")
-        st.markdown("[Explore Project](https://claude.ai/)", unsafe_allow_html=True)
+        st.markdown("[Let's Build!](https://artifacts.e2b.dev/)", unsafe_allow_html=True)
 
     with col6:
         st.subheader("Hey Gen")
