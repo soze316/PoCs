@@ -14,7 +14,7 @@ def main():
 
     with col1:
         st.subheader("Say What You Can See")
-        st.image("poc_0.png", width=150)
+        st.image("swys.jpg", width=150)
         st.write("Learn the art of image prompting with the help of Google AI. Try to generate matching images with your own prompts.")
         st.markdown("[Play a simple game!](https://artsandculture.google.com/experiment/say-what-you-see/jwG3m7wQShZngw?hl=en)", unsafe_allow_html=True)
 
