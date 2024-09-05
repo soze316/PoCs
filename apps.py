@@ -20,9 +20,10 @@ def main():
 
     with col2:
         st.subheader("Ghostwriter")
-        st.image("poc_2.png", width=150)
+        st.image("judge.jpg", width=150)
         st.write("AI-powered author services with more options to steer the book generation for various content types to help initiate ideas")
         st.markdown("[Explore Project](https://hpg-ghostwriter-basic.streamlit.app/advanced)", unsafe_allow_html=True)
+        st.markdown("[AI Judge](https://chatgpt.com/g/g-nthT5KRPE-the-grim-judge)", unsafe_allow_html=True)
 
     #with col3:
         #st.subheader("Ghostwriter Advanced")
